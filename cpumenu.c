@@ -11,7 +11,7 @@ case 1:{
    printf("enter the no of process:\n");
    scanf("%d",&n);
    int p[n],bt[n],wt[n],tat[n];
-   printf("Enter the pid and bt of process of process :\n");
+   printf("Enter the pid and bt of process :\n");
    for(i=0;i<n;i++){
    scanf("%d%d",&p[i],&bt[i]);
    }
@@ -39,7 +39,7 @@ case 1:{
    }
    printf("%d\n",tat[n-1]);
     printf("\n");
-   printf("avg wt= %f\navg tat= %f\n",twt,ttat);
+   printf("avg wt= %f\navg tat= %f\n",twt/n,ttat/n);
     printf("tot wt= %f\ntot tat= %f\n",twt,ttat);
    break;
    }
@@ -49,7 +49,7 @@ case 2:{
    printf("enter the no of process:\n");
    scanf("%d",&n);
    int p[n],bt[n],wt[n],tat[n];
-   printf("Enter the pid and bt of process of process :\n");
+   printf("Enter the pid and bt of process :\n");
    for(i=0;i<n;i++){
    scanf("%d%d",&p[i],&bt[i]);
    }
